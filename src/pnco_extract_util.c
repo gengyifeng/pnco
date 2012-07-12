@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "pnco.h"
+#include "pnco_init.h"
 #include "pnco_parser.h"
 #include "pnco_extract_util.h"
 

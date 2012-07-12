@@ -1,7 +1,7 @@
 #ifndef _PNCO_EXTRACT_UTIL_
 #define _PNCO_EXTRACT_UTIL_
 #include "netcdf.h"
-#include "pnco.h"
+#include "pnco_init.h"
 #include "pnco_parser.h"
 int getDivider(int ndims,const size_t *dims,size_t *divider);
 int getStart(int ndims,size_t index,const size_t *divider,size_t *start);

@@ -27,5 +27,5 @@ int init_var(VAR *var,nc_type type,char *varName,DIMS *dims);
 
 int init_box(BOX *box,int size,size_t *start,size_t *count);
 int init_box_with_stride(BOX *box,int size,size_t *start,size_t *count,size_t *stride);
-
+//
 #endif

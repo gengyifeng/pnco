@@ -1,6 +1,6 @@
 #ifndef _PNCO_PARSER_H_
 #define _PNCO_PARSER_H_
-#include "pnco.h"
+#include "pnco_init.h"
 #include "netcdf.h"
 #define DELIM ","
 #define DELIMA ','

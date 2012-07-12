@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "pnco.h"
+#include "pnco_init.h"
 #define BAIL(e) do{ \
 printf("ERROR:: file: %s, line: %d, func: %s, code: %s.\n",__FILE__,__LINE__,__FUNCTION__, nc_strerror(e)); \
 return e;\
